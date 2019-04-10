@@ -1,0 +1,17 @@
+.logo-text{
+    color:#1d7b21;
+    font-size: 25px;
+}
+.menu-item{
+    color:#1d7b21;
+    font-size:16px;
+}
+.contact{
+    padding-left: 5%  
+}
+
+.nav-custom{
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}

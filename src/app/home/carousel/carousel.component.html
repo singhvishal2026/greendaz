@@ -1,0 +1,9 @@
+<ngb-carousel  class="top-margin">
+  <ng-template ngbSlide *ngFor="let image of imageArray">
+    <img  class="img-fluid" [src]="image.path" alt="First slide">
+    <div class="carousel-caption">
+      <h2 class="carousel-text">{{image.heading}}</h2>
+      <p class="carousel-text">{{image.content}}</p>
+    </div> 
+  </ng-template>
+</ngb-carousel>
